@@ -40,27 +40,27 @@
                         <Font size="18.0" />
                      </font>
                   </Text>
-                  <JFXTextField fx:id="senha_anterior5" alignment="CENTER" layoutX="43.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12652" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior5" alignment="CENTER" layoutX="43.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior4" alignment="CENTER" layoutX="148.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="P-101" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior4" alignment="CENTER" layoutX="148.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior3" alignment="CENTER" layoutX="256.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12653" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior3" alignment="CENTER" layoutX="256.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior2" alignment="CENTER" layoutX="367.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12654" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior2" alignment="CENTER" layoutX="367.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior1" alignment="CENTER" layoutX="477.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12655" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior1" alignment="CENTER" layoutX="477.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
