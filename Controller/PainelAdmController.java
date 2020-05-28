@@ -37,17 +37,17 @@ public class PainelAdmController implements Initializable {
 
     @FXML public void avancar_comum(ActionEvent event) {
         if(c_atual == 0){
+            apresentador.senha_anterior5.setText(apresentador.senha_anterior4.getText());
+            apresentador.senha_anterior4.setText(apresentador.senha_anterior3.getText());
+            apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
+            apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
+            apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
             c_atual = c_atual+1;
             System.out.println(c_atual);
             c_seguinte = c_seguinte+1;
             apresentador.senha_atual.setText(String.valueOf(c_atual));
             comum_atual.setText(String.valueOf(c_atual));
             comum_seguinte.setText(String.valueOf(c_seguinte));
-            apresentador.senha_anterior5.setText(apresentador.senha_anterior4.getText());
-            apresentador.senha_anterior4.setText(apresentador.senha_anterior3.getText());
-            apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
-            apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
-            apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
         }else{
             c_anterior = c_atual;
             c_atual = c_atual+1;
@@ -66,16 +66,16 @@ public class PainelAdmController implements Initializable {
 
     @FXML public void avancar_preferencial(ActionEvent event) {
         if(p_atual == 0){
-            p_atual = p_atual+1;
-            p_seguinte = p_seguinte+1;
-            apresentador.senha_atual.setText("P-"+String.valueOf(p_atual));
-            preferencial_atual.setText("P-"+String.valueOf(p_atual));
-            preferencial_seguinte.setText("P-"+String.valueOf(p_seguinte));
             apresentador.senha_anterior5.setText(apresentador.senha_anterior4.getText());
             apresentador.senha_anterior4.setText(apresentador.senha_anterior3.getText());
             apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
             apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
             apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
+            p_atual = p_atual+1;
+            p_seguinte = p_seguinte+1;
+            apresentador.senha_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_seguinte.setText("P-"+String.valueOf(p_seguinte));
         }else{
             p_anterior = p_atual;
             p_atual = p_atual+1;
@@ -104,10 +104,10 @@ public class PainelAdmController implements Initializable {
             apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
             apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
             apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
-            apresentador.senha_atual.setText(String.valueOf(c_atual));
-            comum_anterior.setText(String.valueOf(c_anterior));
-            comum_atual.setText(String.valueOf(c_atual));
-            comum_seguinte.setText(String.valueOf(c_seguinte));
+            apresentador.senha_atual.setText("P-"+String.valueOf(c_atual));
+            comum_anterior.setText("P-"+String.valueOf(c_anterior));
+            comum_atual.setText("P-"+String.valueOf(c_atual));
+            comum_seguinte.setText("P-"+String.valueOf(c_seguinte));
         }
     }
 
