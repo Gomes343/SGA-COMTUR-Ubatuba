@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PainelUserController">
+  <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #f0f0f0;">
+         <children>
+            <Text fill="#000033" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Controle de Atendimento" textAlignment="CENTER" wrappingWidth="645.999995470047">
+               <font>
+                  <Font name="Centaur" size="36.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </StackPane.margin>
+            </Text>
+            <Line endX="645.0" endY="69.5" startX="-4.0" startY="69.5" StackPane.alignment="BOTTOM_CENTER" />
+         </children>
+      </StackPane>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: white;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Últimas senhas chamadas:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <GridPane hgap="25.0" minHeight="50.0" prefHeight="52.0" prefWidth="650.0" style="-fx-background-color: white;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <JFXTextField fx:id="senha_anterior5" alignment="CENTER" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="senha_anterior4" alignment="CENTER" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="senha_anterior3" alignment="CENTER" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="senha_anterior2" alignment="CENTER" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="senha_anterior1" alignment="CENTER" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #f0f0f0;" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <padding>
+            <Insets left="25.0" right="25.0" />
+         </padding>
+      </GridPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_CENTER">
+               <image>
+                  <Image url="@images/logo_comtur_1.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="10.0" />
+               </StackPane.margin>
+            </ImageView>
+            <JFXTextField fx:id="senha_atual" alignment="CENTER" editable="false" prefHeight="394.0" prefWidth="650.0" promptText="12354" StackPane.alignment="TOP_CENTER">
+               <font>
+                  <Font size="200.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </JFXTextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" textAlignment="CENTER" wrappingWidth="645.999995470047" StackPane.alignment="TOP_CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="50.0" />
+               </StackPane.margin>
+            </Text>
+         </children>
+      </StackPane>
+  </children>
+</VBox>
