@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PainelUserController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
       <children>
@@ -23,14 +23,14 @@
                   </Text>
                </children>
             </AnchorPane>
-            <JFXTextField fx:id="senha_atual" alignment="CENTER" editable="false" layoutX="-3.0" layoutY="63.0" prefHeight="439.0" prefWidth="650.0" promptText="12656">
+            <JFXTextField fx:id="senha_atual" alignment="CENTER" editable="false" layoutX="-3.0" layoutY="63.0" prefHeight="439.0" prefWidth="650.0" promptText="12354">
                <font>
                   <Font size="200.0" />
                </font>
             </JFXTextField>
             <ImageView fitHeight="107.0" fitWidth="181.0" layoutX="232.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../SIGCOM/src/GERFRET/FXMLView/images/logo_comtur_1.png" />
+                  <Image url="@images/logo_comtur_1.png" />
                </image>
             </ImageView>
             <AnchorPane layoutX="16.0" layoutY="71.0" prefHeight="70.0" prefWidth="620.0">
@@ -40,27 +40,27 @@
                         <Font size="18.0" />
                      </font>
                   </Text>
-                  <JFXTextField fx:id="senha_anterior4" alignment="CENTER" layoutX="43.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12652" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior5" alignment="CENTER" layoutX="43.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12652" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior3" alignment="CENTER" layoutX="148.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="P-101" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior4" alignment="CENTER" layoutX="148.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="P-101" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior2" alignment="CENTER" layoutX="256.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12653" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior3" alignment="CENTER" layoutX="256.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12653" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior1" alignment="CENTER" layoutX="367.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12654" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior2" alignment="CENTER" layoutX="367.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12654" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="senha_anterior" alignment="CENTER" layoutX="477.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12655" style="-fx-background-color: #f0f0f0;">
+                  <JFXTextField fx:id="senha_anterior1" alignment="CENTER" layoutX="477.0" layoutY="40.0" prefHeight="39.0" prefWidth="92.0" promptText="12655" style="-fx-background-color: #f0f0f0;">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
