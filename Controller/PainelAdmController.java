@@ -104,10 +104,10 @@ public class PainelAdmController implements Initializable {
             apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
             apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
             apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
-            apresentador.senha_atual.setText("P-"+String.valueOf(c_atual));
-            comum_anterior.setText("P-"+String.valueOf(c_anterior));
-            comum_atual.setText("P-"+String.valueOf(c_atual));
-            comum_seguinte.setText("P-"+String.valueOf(c_seguinte));
+            apresentador.senha_atual.setText(String.valueOf(c_atual));
+            comum_anterior.setText(String.valueOf(c_anterior));
+            comum_atual.setText(String.valueOf(c_atual));
+            comum_seguinte.setText(String.valueOf(c_seguinte));
         }
     }
 
@@ -123,10 +123,10 @@ public class PainelAdmController implements Initializable {
             apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
             apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
             apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
-            apresentador.senha_atual.setText(String.valueOf(p_atual));
-            preferencial_anterior.setText(String.valueOf(p_anterior));
-            preferencial_atual.setText(String.valueOf(p_atual));
-            preferencial_seguinte.setText(String.valueOf(p_seguinte));
+            apresentador.senha_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_anterior.setText("P-"+String.valueOf(p_anterior));
+            preferencial_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_seguinte.setText("P-"+String.valueOf(p_seguinte));
         }
     }
 
