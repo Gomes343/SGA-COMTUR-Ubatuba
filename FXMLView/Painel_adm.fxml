@@ -25,9 +25,9 @@
                         <Image url="@images/logo_comtur_1.png" />
                      </image>
                   </ImageView>
-                  <Text fill="#000033" layoutX="122.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Controle de Senhas" textAlignment="CENTER" wrappingWidth="402.12109375">
+                  <Text fill="#000033" layoutX="122.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Controle de Atendimento" textAlignment="CENTER" wrappingWidth="402.12109375">
                      <font>
-                        <Font name="Centaur" size="36.0" />
+                        <Font name="Centaur" size="28.0" />
                      </font>
                   </Text>
                   <ImageView fitHeight="54.0" fitWidth="83.0" layoutX="552.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
