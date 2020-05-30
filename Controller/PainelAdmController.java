@@ -130,6 +130,37 @@ public class PainelAdmController implements Initializable {
         }
     }
 
+    @FXML public void zerar_comum(ActionEvent event) {
+            c_atual = 0;
+            c_seguinte = c_atual + 1;
+            c_anterior = c_anterior-1;
+            apresentador.senha_anterior5.setText(apresentador.senha_anterior4.getText());
+            apresentador.senha_anterior4.setText(apresentador.senha_anterior3.getText());
+            apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
+            apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
+            apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
+            apresentador.senha_atual.setText(String.valueOf(c_atual));
+            comum_anterior.setText(String.valueOf(c_anterior));
+            comum_atual.setText(String.valueOf(c_atual));
+            comum_seguinte.setText(String.valueOf(c_seguinte));
+    }
+
+    @FXML public void zerar_preferencial(ActionEvent event) {
+
+            p_atual = 0;
+            p_seguinte = p_atual + 1;
+            p_anterior = p_anterior - 1;
+            apresentador.senha_anterior5.setText(apresentador.senha_anterior4.getText());
+            apresentador.senha_anterior4.setText(apresentador.senha_anterior3.getText());
+            apresentador.senha_anterior3.setText(apresentador.senha_anterior2.getText());
+            apresentador.senha_anterior2.setText(apresentador.senha_anterior1.getText());
+            apresentador.senha_anterior1.setText(apresentador.senha_atual.getText());
+            apresentador.senha_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_anterior.setText("P-"+String.valueOf(p_anterior));
+            preferencial_atual.setText("P-"+String.valueOf(p_atual));
+            preferencial_seguinte.setText("P-"+String.valueOf(p_seguinte));
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
