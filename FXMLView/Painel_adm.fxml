@@ -106,16 +106,6 @@
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Button layoutX="269.0" layoutY="78.0" mnemonicParsing="false" onAction="#zerar_preferencial" style="-fx-background-color: #f0f0f0;" text="Zerar">
-               <effect>
-                  <DropShadow color="#0000005f" height="15.0" radius="7.0" width="15.0" />
-               </effect>
-            </Button>
-            <Button layoutX="592.0" layoutY="78.0" mnemonicParsing="false" onAction="#zerar_comum" style="-fx-background-color: #f0f0f0;" text="Zerar">
-               <effect>
-                  <DropShadow color="#0000005f" height="15.0" radius="7.0" width="15.0" />
-               </effect>
-            </Button>
       </children>
     </AnchorPane>
   </children>

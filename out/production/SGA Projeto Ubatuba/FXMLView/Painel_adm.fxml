@@ -76,32 +76,32 @@
             <Line endX="-11.0" endY="230.0" layoutX="336.0" layoutY="199.0" startX="-11.0" startY="-129.0" />
             <Text layoutX="99.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(apresentada no painel)" />
             <Text layoutX="426.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(apresentada no painel)" />
-            <Label fx:id="preferencial_atual" alignment="CENTER" contentDisplay="CENTER" layoutX="126.0" layoutY="209.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="preferencial_atual" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="207.0" prefHeight="53.0" prefWidth="109.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Label fx:id="preferencial_anterior" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="282.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="preferencial_anterior" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="282.0" prefHeight="53.0" prefWidth="99.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Label fx:id="preferencial_seguinte" alignment="CENTER" contentDisplay="CENTER" layoutX="217.0" layoutY="282.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="preferencial_seguinte" alignment="CENTER" contentDisplay="CENTER" layoutX="201.0" layoutY="282.0" prefHeight="53.0" prefWidth="99.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Label fx:id="comum_atual" alignment="CENTER" contentDisplay="CENTER" layoutX="453.0" layoutY="209.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="comum_atual" alignment="CENTER" contentDisplay="CENTER" layoutX="420.0" layoutY="207.0" prefHeight="53.0" prefWidth="138.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Label fx:id="comum_anterior" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="291.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="comum_anterior" alignment="CENTER" contentDisplay="CENTER" layoutX="345.0" layoutY="291.0" prefHeight="53.0" prefWidth="109.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
             </Label>
-            <Label fx:id="comum_seguinte" alignment="CENTER" contentDisplay="CENTER" layoutX="545.0" layoutY="291.0" prefHeight="53.0" prefWidth="71.0" text="00" textAlignment="CENTER" textFill="#002aff">
+            <Label fx:id="comum_seguinte" alignment="CENTER" contentDisplay="CENTER" layoutX="516.0" layoutY="291.0" prefHeight="53.0" prefWidth="125.0" text="00000" textAlignment="CENTER" textFill="#002aff">
                <font>
                   <Font name="Arial Narrow Bold" size="36.0" />
                </font>
